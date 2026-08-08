@@ -2489,6 +2489,7 @@ def run(fn, text):
     # Generate tokens
     lexer = Lexer(fn, text)
     tokens, error = lexer.make_tokens()
+    print(tokens)
     if error: return None, error
     print("\033[32m" + "DEBUG: Lexical Analysis OK！" + "\033[39m")
     print(tokens)
