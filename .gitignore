@@ -3,3 +3,4 @@ __pycache__/
 .github/
 /pumalang/__pycache__
 /onefile/__pycache__
+.mps
