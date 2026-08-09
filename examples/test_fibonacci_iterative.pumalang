@@ -9,4 +9,4 @@ var a = b
 var b = next
 end
 print(seq)
-print(seq / 9)
+
